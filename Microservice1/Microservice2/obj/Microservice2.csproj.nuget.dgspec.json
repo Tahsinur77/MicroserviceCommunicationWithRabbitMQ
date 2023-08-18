@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Microservice2\\Microservice2.csproj": {}
+  },
+  "projects": {
+    "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Microservice2\\Microservice2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Microservice2\\Microservice2.csproj",
+        "projectName": "Microservice2",
+        "projectPath": "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Microservice2\\Microservice2.csproj",
+        "packagesPath": "C:\\Users\\Tahsinur\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Microservice2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tahsinur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.97.38:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Share\\Share.csproj": {
+                "projectPath": "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Share\\Share.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Share\\Share.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Share\\Share.csproj",
+        "projectName": "Share",
+        "projectPath": "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Share\\Share.csproj",
+        "packagesPath": "C:\\Users\\Tahsinur\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Share\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tahsinur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.97.38:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
