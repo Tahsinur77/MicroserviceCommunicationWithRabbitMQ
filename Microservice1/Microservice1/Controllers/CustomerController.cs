@@ -4,6 +4,8 @@ using Share;
 
 namespace Microservice1.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class CustomerController : Controller
     {
         private readonly ISendEndpointProvider endpoint;

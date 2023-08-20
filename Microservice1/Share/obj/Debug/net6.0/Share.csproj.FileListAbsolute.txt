@@ -1,0 +1,12 @@
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\bin\Debug\net6.0\Share.deps.json
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\bin\Debug\net6.0\Share.dll
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\bin\Debug\net6.0\Share.pdb
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\obj\Debug\net6.0\Share.csproj.AssemblyReference.cache
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\obj\Debug\net6.0\Share.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\obj\Debug\net6.0\Share.AssemblyInfoInputs.cache
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\obj\Debug\net6.0\Share.AssemblyInfo.cs
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\obj\Debug\net6.0\Share.csproj.CoreCompileInputs.cache
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\obj\Debug\net6.0\Share.dll
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\obj\Debug\net6.0\refint\Share.dll
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\obj\Debug\net6.0\Share.pdb
+D:\Personal Project\MicroserviceCommunicationWithRabbitMQ\Microservice1\Share\obj\Debug\net6.0\ref\Share.dll

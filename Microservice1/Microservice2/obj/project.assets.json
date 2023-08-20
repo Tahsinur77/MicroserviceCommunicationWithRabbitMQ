@@ -2029,7 +2029,6 @@
       "MassTransit >= 8.1.0",
       "MassTransit.RabbitMQ >= 8.1.0",
       "Microsoft.Extensions.Hosting >= 7.0.1",
-      "Microsoft.Extensions.Hosting.Abstractions >= 7.0.0",
       "Share >= 1.0.0"
     ]
   },
@@ -2088,10 +2087,6 @@
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[7.0.1, )"
-          },
-          "Microsoft.Extensions.Hosting.Abstractions": {
-            "target": "Package",
-            "version": "[7.0.0, )"
           }
         },
         "imports": [

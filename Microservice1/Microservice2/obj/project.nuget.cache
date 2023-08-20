@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ydDDSegvCu3TFW+yToQ4hNIHIjRwYycIlfymMCialrS5zY8wTAuOnyJmhiOEDPYKnqtzjveYznf6osyGVvairQ==",
+  "dgSpecHash": "gaXZ7JnLcCrpkiaksvluxOQmTLVFLd4DrcMeDS6sqk1VQg+EMM4Lkfrq/mFPlaa278tPg4jFhqXD8k0vSanGug==",
   "success": true,
   "projectFilePath": "D:\\Personal Project\\MicroserviceCommunicationWithRabbitMQ\\Microservice1\\Microservice2\\Microservice2.csproj",
   "expectedPackageFiles": [
