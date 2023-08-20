@@ -17,10 +17,13 @@ namespace Microservice2
     {
         public static void main(string[] args)
         {
-
+            var host = CreateHostBuilder(args).Build();
+            using IServiceScope serviceScope = host.Services.CreateScope();
+            IServiceProvider provider = serviceScope.ServiceProvider;
+            host.Run();
         }
 
-        public static IHostBuilder CreateHostBuildere(string[] args) =>
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
             .ConfigureAppConfiguration(app =>
             {
