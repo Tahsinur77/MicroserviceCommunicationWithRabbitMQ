@@ -1,6 +1,7 @@
 using MassTransit;
 using Microsoft.Extensions.Options;
 using Share;
+using static MassTransit.Monitoring.Performance.BuiltInCounters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +27,20 @@ builder.Services.AddMassTransit(config =>
             hst.Username(rabbitMqConfig.User);
             hst.Password(rabbitMqConfig.Password);
         });
+
+        //Temporary endpoint
+        cfg.Publish<CustomerModel>(x =>
+        {
+            //durable bool Save messages to disk
+            x.Durable = false;
+            //autodelete  bool Delete when bus is stopped
+            x.AutoDelete = true;
+            //Direct exchanges route messages to queues based on an exact match of the routing key
+            //Fanout exchanges route messages to all bound queues
+            x.ExchangeType = "fanout";
+            // x.Exclude = true; // do not create an exchange for this type
+        });
+
     })
 );
 
